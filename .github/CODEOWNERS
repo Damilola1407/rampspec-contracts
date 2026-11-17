@@ -1,0 +1,30 @@
+# Security-sensitive automation and developer configuration
+/.github/ @Fatima0105
+/.vscode/ @Fatima0105
+/.devcontainer/ @Fatima0105
+/.githooks/ @Fatima0105
+/.cargo/ @Fatima0105
+/scripts/ @Fatima0105
+/security/ @Fatima0105
+/upgrade/ @Fatima0105
+
+# Package and workspace manifests, lockfiles, and lifecycle configuration
+**/Cargo.toml @Fatima0105
+**/Cargo.lock @Fatima0105
+**/package.json @Fatima0105
+**/package-lock.json @Fatima0105
+/rust-toolchain.toml @Fatima0105
+
+# Binary and font assets
+*.eot @Fatima0105
+*.llf @Fatima0105
+*.lfk @Fatima0105
+*.otf @Fatima0105
+*.ttf @Fatima0105
+*.wasm @Fatima0105
+*.woff @Fatima0105
+*.woff2 @Fatima0105
+
+# Build and framework configuration
+**/Dockerfile* @Fatima0105
+/rustfmt.toml @Fatima0105
